@@ -32,23 +32,20 @@ function App() {
       <div className='container'>
         <div className='front'>
           <div className='front-one'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet diam at sem 
-              ultricies finibus ut in libero. Nullam viverra rhoncus tincidunt. Curabitur in viverra orci, 
-              non dignissim lacus. In aliquam in arcu a molestie. Sed purus ipsum, imperdiet eu nunc a, 
-              ultricies maximus risus. Aenean elementum pellentesque hendrerit. Maecenas tortor quam, 
-              finibus eu diam sit amet, elementum feugiat lorem. In tristique a urna sit amet efficitur. 
-              Etiam ultrices arcu eu dolor hendrerit, sed pharetra libero gravida. Ut id tempus massa. 
-              Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</p>
+            <img className= 'top-img' src={example} alt="world" />
+            <h3 className='h3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            <h4 className='h4'> Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h4>
+            <button>Learn More</button>
           </div>
 
           <div className='front-two'>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sit amet diam at sem 
-                ultricies finibus ut in libero. Nullam viverra rhoncus tincidunt. Curabitur in viverra orci, 
-                non dignissim lacus. In aliquam in arcu a molestie. Sed purus ipsum, imperdiet eu nunc a, 
-                ultricies maximus risus. Aenean elementum pellentesque hendrerit. Maecenas tortor quam, 
-                finibus eu diam sit amet, elementum feugiat lorem. In tristique a urna sit amet efficitur. 
-                Etiam ultrices arcu eu dolor hendrerit, sed pharetra libero gravida. Ut id tempus massa. 
-                Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</p>
+            <ul className='Info-Menu'>
+                <li>Home</li>
+                <li>Resources</li>
+                <li>News  Events</li>
+                <li>Donate</li>
+                <li>Orders</li>
+              </ul>
           </div>
         </div>
       </div>
