@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faFacebook, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import example from './example.jpg'
 
+import Section2 from './secondsection/Section2';
+
 function App() {
   return (
     <div className="App">
@@ -56,6 +58,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <Section2 />
     </div>
   );
 }
