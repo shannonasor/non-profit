@@ -2,27 +2,69 @@
   text-align: center;
 }
 
-.App {
-  background-color: black;
+.Header {
+  margin: 0 auto;
+  width: 80%;
+
 }
 
 .Menu {
-  background-color: rgb(226, 43, 49);
   font-weight: bolder;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .Org-Name {
   margin-bottom: 1rem;
   font-size: 2rem;
-  color: white;
+  color: black;
 }
+
 .Main-Menu {
-  /* height: 3.5vh; */
-  width: 70%;
+  width: 75%;
   display: flex;
   justify-content: space-around;
-  background-color: aqua;
-  
 }
+
+.Social-Menu {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: rgb(74, 20, 74);
+  height: 10rem;
+  position: relative;
+}
+
+.front {
+  width: 90%;
+  margin-left:5rem;
+  background-color: yellow;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+}
+
+.front-one {
+  background-color: aqua;
+  width: 40%;
+  height: 8rem;
+  top: 0;
+  left: 0;
+}
+
+.front-two {
+  background-color: red;
+  width: 40%;
+  height: 8rem;
+  top: 0;
+  left: 50rem;
+}
+
+
+
+
+
