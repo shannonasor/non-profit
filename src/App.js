@@ -5,6 +5,7 @@ import { faLinkedinIn, faFacebook, faTwitter, faInstagram, faYoutube } from '@fo
 import example from './example.jpg'
 
 import Section2 from './secondsection/Section2';
+import Footer from './footer/Footer';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
       </div>
 
       <Section2 />
+      <Footer />
     </div>
   );
 }

@@ -269,3 +269,9 @@
   border-radius: 6px;
   margin-bottom: 1rem;
 }
+
+.Footer {
+  background-color: rgb(74, 20, 74);
+  margin-top: 60rem;
+  height: 30rem;
+}
