@@ -35,16 +35,23 @@ function App() {
             <img className= 'top-img' src={example} alt="world" />
             <h3 className='h3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             <h4 className='h4'> Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h4>
-            <button>Learn More</button>
+            <button class="button-1" role="button">Learn More</button>
           </div>
 
           <div className='front-two'>
             <ul className='Info-Menu'>
-                <li>Home</li>
-                <li>Resources</li>
-                <li>News  Events</li>
-                <li>Donate</li>
-                <li>Orders</li>
+                <li>
+                  <h3>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h3>
+                  <h4>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h4>
+                </li>
+                <li>
+                  <h3>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h3>
+                  <h4>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h4>
+                </li>
+                <li>
+                  <h3>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h3>
+                  <h4>Etiam ultrices sit amet nunc a consequat. Nullam a orci venenatis, accumsan erat vitae, posuere libero.</h4>
+                </li>
               </ul>
           </div>
         </div>
