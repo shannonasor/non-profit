@@ -16,9 +16,11 @@
 }
 
 .Org-Name {
-  margin-bottom: 1rem;
+  margin: 1rem 0 1rem 0;
   font-size: 2rem;
   color: black;
+  font-weight: bolder;
+
 }
 
 .Main-Menu {
@@ -177,9 +179,11 @@
 .Section2-Top-One {
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 30%;
   text-align: left;
   margin-left: 5rem;
+  line-height: 2rem;
+
   
 }
 
@@ -189,8 +193,47 @@
 }
 
 .Section2-Top-One p, .Section2-Front2 p, .Section2-Front1-Bottom p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-top: 1.8rem;
+}
+
+.button-2 {
+  background: #FFFFFF;
+  border: 1px solid rgb(74, 20, 74);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: rgb(74, 20, 74);
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 1rem 0 0 12rem;
+  width: 38%;
+}
+
+.button-2:hover,
+.button-2:active {
+  background-color: initial;
+  background-position: 0 0;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+.button-2:active {
+  opacity: .5;
 }
 
 .Section2-Top-Two {
@@ -238,6 +281,11 @@
 .Section2-Front1-Bottom{
   /* margin-top: 30rem; */
   color: black;
+  margin: 0 auto;
+  width: 50%;
+  line-height: 2rem;
+  text-align: left;
+
 }
 
 .Section2-Front2 {
@@ -251,7 +299,8 @@
 
 .Section2-Front2-Inside {
   margin: 0 auto;
-  width: 70%;
+  width: 50%;
+  line-height: 2rem;
 }
 
 
@@ -270,8 +319,118 @@
   margin-bottom: 1rem;
 }
 
+
+/* Footer */
+.Top-Footer {
+  background-color: #FFFFFF;
+  margin-top: 55rem;
+  height: 15rem;
+  padding-top: 4rem;
+}
+
+.Top-Footer h1{
+  margin-top: 5rem;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 18%;
+}
+
+.button-3 {
+  background: rgb(74, 20, 74);
+  border: 1px solid rgb(74, 20, 74);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 1rem 0 0 0;
+}
+
+.button-3:hover,
+.button-3:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: rgb(74, 20, 74);
+}
+
+.button-3:active {
+  opacity: .5;
+}
+
 .Footer {
   background-color: rgb(74, 20, 74);
-  margin-top: 60rem;
   height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Footer-Left {
+  background-color: rgb(74, 20, 74);
+  border: .1rem solid #FFFFFF;
+  border-radius: 6px;
+  width: 40%;
+  color: #FFFFFF;
+  height: 12rem;
+}
+
+.Footer-Left h5 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Footer-Left p {
+  font-size: .8rem;
+  margin: 0 auto;
+  width: 35%;
+  margin-bottom: 1rem;
+
+}
+
+.Footer-Left input{
+  border: none;
+  border-bottom: .1rem solid #FFFFFF ;
+  background-color: rgb(74, 20, 74);
+}
+
+.Footer-Right {
+  background-color: rgb(74, 20, 74);
+  /* border: .1rem solid #FFFFFF;
+  border-radius: 6px; */
+  width: 40%;
+  color: #FFFFFF;
+  height: 7rem;
+}
+
+.Social-Footer-Heading {
+  font-size: 2rem;
+}
+
+.Footer-Social-Menu {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright {
+  border-top: .1rem solid #FFFFFF;
+  width: 100%;
+  color: #FFFFFF;
+  padding-top: 2rem;
 }
