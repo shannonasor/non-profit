@@ -4,39 +4,39 @@
 }
 
 .Left {
-  background-color: #CBF83E;
+  background-color: black;
   height: 100vh;
   width: 24%;
   display: flex;
   flex-direction: column;
+  border-style: outset;
+  box-shadow: #3795dd 5px 25px 8px 5px;
+  color: #3795dd;
+  /* border: .3rem solid black; */
+  border-left: none;
+
 }
 
-.Right {
-  background-color: #ABA8A9;
-  height: 100vh;
-  width: 76%;
-}
 
-.Right img {
-  width: 100%;
-  height: 28rem;
-}
 
 .Left-Main-Heading {
-  font-size: 6rem;
+  font-size: 4rem;
   text-align: center;
   padding-top: 1rem;
-  height: 30%;
+  height: 20%;
 }
 
 .Left-Main-Menu {
   font-size: 1rem;
   margin: 0 auto;
-  height: 60%;
-  font-size: 2rem;
+  height: 40%;
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 30%;
+  font-weight: bolder;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 
 }
 
@@ -50,16 +50,134 @@
 }
 
 .Left-Main-Menu-List li {
- border-bottom: .1rem solid black;
+ border-bottom: .1rem solid #3795dd;
+ padding-bottom: .2rem;
 }
 
 .Left-Social-Menu {
   height: 10%;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .Left-Social-Menu-List {
   display: flex;
   justify-content: space-around;
   padding-top: 1rem;
+}
+
+.Right {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 76%;
+}
+
+.Top-Right {
+  width: 100%;
+  height: 25%;
+}
+
+.Top-Right img {
+  width: 100%;
+  height: 25rem;
+}
+
+.Bottom-Right {
+  background-color: #3795dd;
+  display: flex;
+  justify-content: space-between;
+  border-style: outset;
+  box-shadow: #3795dd 5px 2px 8px 5px;
+  margin-top: 14rem;
+  padding-top: 2rem;
+  height: 45%;
+
+}
+
+.info {
+  line-height: 1.5rem;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  width: 30%;
+}
+
+.info h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+
+.help-icons-div{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.icon-div{
+  background-color: #3795dd;
+  border: .5rem solid black;
+  border-radius: 50%;
+  height: 155px;
+  width: 155px;
+}
+
+/* .help-icon-div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+} */
+
+.hands {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.hands-icon {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 4rem;
+  height: 5rem;
+}
+
+.hands p {
+  margin-left: 1rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.user-icon {
+  margin-top: 1rem;
+  margin-left: 2.6rem;
+  width: 4rem;
+  height: 5rem;
+}
+
+
+.user p {
+  margin-left: 2.5rem;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.5rem;
+
+}
+
+.days-icon {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  width: 3.5rem;
+  height: 5rem;
+}
+
+.days p {
+  margin-left: 3.4rem;
 }
