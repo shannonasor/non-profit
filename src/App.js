@@ -9,73 +9,81 @@ import example from './example.jpg'
 function App() {
   return (
     <div className="App">
-      <div className='Left'>
-          <div className='Left-Main-Heading'>
-            <h1>Big D's House</h1>
+      <div className='Top'>
+          <div className='Top-Header'>
+          <FontAwesomeIcon className='house' icon={faHouse} />
+            <h1 className='name'>Big D's House</h1>
           </div>
-          <div className='Left-Main-Menu'>
-            <ul className= 'Left-Main-Menu-Icon-List'>
-                <li><FontAwesomeIcon icon={faHouse} /></li>
-                <li><FontAwesomeIcon icon={faTableList} /></li>
-                <li><FontAwesomeIcon icon={faNewspaper} /></li>
-                <li><FontAwesomeIcon icon={faHandHoldingDollar} /></li>
-                <li><FontAwesomeIcon icon={faReceipt} /></li>
-              </ul>
 
-              <ul className= 'Left-Main-Menu-List'>
-                <li>Home</li>
-                <li>Resources</li>
-                <li>News  Events</li>
-                <li>Donate</li>
-                <li>Orders</li>
+          <div className='Top-Header-Menu'>
+              <ul className= 'Top-Header-Menu-List'>
+                <li className='li-one'>Learn More</li>
+                <li>Volunteer</li>
+                <li className='li-three'>Donate</li>
               </ul>
-          </div>
-          <div className='Left-Social-Menu'>
-          <ul className='Left-Social-Menu-List'>
-              <li><FontAwesomeIcon icon={faFacebook} /></li>
-              <li><FontAwesomeIcon icon={faLinkedinIn} /></li>
-              <li><FontAwesomeIcon icon={faInstagram} /></li>
-              <li><FontAwesomeIcon icon={faTwitter} /></li>
-              <li><FontAwesomeIcon icon={faYoutube} /></li>
-            </ul>
-            
           </div>
       </div>
 
-      <div className='Right'>
-          <div className='Top-Right'>
-            <img src={example} alt="world" />
-          </div>
-          <div className='Bottom-Right'>
-          <div className='info'>
-              <h2>Lorem ipsum dolor</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                  incididunt ut labore et dolore magna aliqua. Magna fringilla urna porttitor rhoncus
-                  dolor. Etiam tempor orci eu lobortis.</p>
-             </div>
+      <div className='Second-Top'>
+            <div className='second-heading'>
+                <h1>#LetItMarinate</h1>
+            </div>
+              
+            <div className='second-menu'>
 
-
-            <div className='help-icons-div'>
-              <div className='icon-div hands'>
-                <FontAwesomeIcon className='hands-icon' icon={faHandsHoldingCircle} />
-                <p>How You Can Help</p>
+              <div className='first-second-menu'>
+                <ul className= 'first-second-menu-list'>
+                  <li className='li-one'>Home</li>
+                  <li className='li-one'>News</li>
+                    <li className='li-three'>Events</li>
+                    <li className='li-one'>Our Services</li>
+                  <li>Resources</li>
+                  <li className='li-three'>Contact Us</li>
+                </ul>
               </div>
 
-              <div className='icon-div user'>
-                <FontAwesomeIcon className='user-icon' icon={ faChalkboardUser } />
-                <p>Learn More</p>
-              </div>
+              {/* <div className='second-second-menu'>
+                <ul className= 'second-second-menu-list'>
+                    <li className='li-one'>News</li>
+                    <li className='li-three'>Events</li>
+                    <li className='li-one'>Our Services</li>
+                    
+                    
+                  </ul>
+              </div> */}
+            </div>
+      </div>
+            
 
-              <div className='icon-div days'>
-                <FontAwesomeIcon className='days-icon' icon={faCalendarDays} />
-                <p>Events</p>
+            <div className='bottom'>
+              
+              <div className='right-content'>
+              <div className='left-content'>
+                <div>
+                  <h3>Our Vision</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+
+                     <div>
+                      <h3>Our Plan</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                          Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                          laboris nisi ut aliquip ex ea commodo consequat. </p>
+                     </div>
+
+                     <div className='buttons'>
+                        <button className="button-30" role="button">Join The Cause</button>
+                     </div>
+              </div>
+                  <img className='right-image' src= {example}/>
               </div>
             </div>
-            
           </div>
 
-      </div>
-    </div>
   );
 }
 

@@ -1,183 +1,264 @@
-.App{
-  display: flex;
-  height: 100vh;
-}
-
-.Left {
+.Top {
   background-color: black;
-  height: 100vh;
-  width: 24%;
+  color: #FFFFFF;
+  display: flex;
+  
+
+}
+
+.Top-Header {
+  margin-top: 1rem;
+  width: 25%;
   display: flex;
   flex-direction: column;
-  border-style: outset;
-  box-shadow: #3795dd 5px 25px 8px 5px;
-  color: #3795dd;
-  /* border: .3rem solid black; */
-  border-left: none;
-
 }
 
-
-
-.Left-Main-Heading {
-  font-size: 4rem;
-  text-align: center;
-  padding-top: 1rem;
-  height: 20%;
-}
-
-.Left-Main-Menu {
+.name{
+  padding-left: 9.3rem;
   font-size: 1rem;
+}
+
+.house {
+  font-size: .8rem;
+  margin-bottom: .5rem;
+}
+
+.Top-Header-Menu {
+  align-self: end;
   margin: 0 auto;
-  height: 40%;
-  font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-  font-weight: bolder;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
+  width: 75%;
 
 }
 
-.Left-Main-Menu-List, .Left-Main-Menu-Icon-List {
+.Top-Header-Menu-List{
   height: 100%;
-  text-align: left; 
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.Top-Header-Menu-List li {
+  width: 8%;
+  border-right: #FFFFFF solid .1rem;
+  padding-left: .5rem;
+}
+
+.Top-Header-Menu-List .li-three {
+  border: none;
+}
+
+.Second-Top {
+  display: flex;
+}
+
+.second-heading {
+  width: 30%;
+  font-size: 3rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2rem;
+  margin-right: 19rem;
+}
+
+.second-menu {
+  margin-top: 2em;
   display: flex;
   flex-direction: column;
+  width: 60%;
+  font-size: 1.5rem;
+}
+.first-second-menu {
+
+}
+
+.first-second-menu-list {
+  display: flex;
   justify-content: space-around;
+  
 
 }
 
-.Left-Main-Menu-List li {
- border-bottom: .1rem solid #3795dd;
- padding-bottom: .2rem;
+.second-second-menu-list {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 5rem;
+
 }
 
-.Left-Social-Menu {
-  height: 10%;
+.bottom {
+  display: flex;
+}
+
+.left-content {
+  height: 32rem;
+  width: 40%;
+  position:absolute;
+  top: 0;
+  left: -10rem;
+  background-color: #FFFFFF;
+  opacity: .6;
+  box-shadow: 20px 0 20px 10px #FFFFFF;
+  padding-top: 5rem;
+}
+
+.left-content h3 {
   font-size: 1.5rem;
 }
 
-.Left-Social-Menu-List {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 1rem;
+.left-content p {
+  font-size: .8rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+  font-weight: bolder;
 }
 
-.Right {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  width: 76%;
+.buttons {
+  width: 50%;
+ margin-left: 5rem;
 }
 
-.Top-Right {
+/* CSS */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#000000 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.right-content {
+ width: 80%;
+ margin-left: 20em;
+ position: relative;
+  
+}
+
+.right-image {
   width: 100%;
-  height: 25%;
+  height: 32rem;
+  /* position: relative; */
 }
 
-.Top-Right img {
-  width: 100%;
-  height: 25rem;
-}
-
-.Bottom-Right {
-  background-color: #3795dd;
-  display: flex;
-  justify-content: space-between;
-  border-style: outset;
-  box-shadow: #3795dd 5px 2px 8px 5px;
-  margin-top: 14rem;
-  padding-top: 2rem;
-  height: 45%;
-
-}
-
-.info {
-  line-height: 1.5rem;
-  margin-top: 3rem;
-  margin-left: 1rem;
+/* .opacity-div-one{
+  background: none;
+  height: 32rem;
   width: 30%;
-}
-
-.info h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-
-
-.help-icons-div{
-  width: 70%;
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.icon-div{
-  background-color: #3795dd;
-  border: .5rem solid black;
-  border-radius: 50%;
-  height: 155px;
-  width: 155px;
-}
-
-/* .help-icon-div {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
+  position:absolute;
+  top: 0;
+  left: 0 ;
+  opacity: .3;
+  box-shadow: 2rem 2rem 2rem 2rem #FFFFFF;
 } */
 
-.hands {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
+/* .opacity-div-two{
+  background: #FFFFFF;
+  height: 32rem;
+  width: 30%;
+  position:absolute;
+  top: 0;
+  left: -4rem;
+  opacity: .9; 
+  box-shadow: 0 0 5px 5px #FFFFFF;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.opacity-div-one1{
+  background: none;
+  height: 32rem;
+  width: 30%;
+  position:absolute;
+  top: 0;
+  left: -6.6rem;
+  opacity: 1;
+  box-shadow: 20px 0 20px 10px #FFFFFF;
 }
 
-.hands-icon {
-  margin-top: 1rem;
-  margin-left: 3rem;
-  width: 4rem;
-  height: 5rem;
-}
 
-.hands p {
-  margin-left: 1rem;
-}
-
-.user {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
-
-.user-icon {
-  margin-top: 1rem;
-  margin-left: 2.6rem;
-  width: 4rem;
-  height: 5rem;
+.opacity-div-one{
+  background: none;
+  height: 32rem;
+  width: 30%;
+  position:absolute;
+  top: 0;
+  left: -6rem;
+  opacity: .7;
+  box-shadow: 20px 0 20px 10px #FFFFFF;
 }
 
 
-.user p {
-  margin-left: 2.5rem;
+.opacity-div-two{
+  background: none;
+  height: 32rem;
+  width: 30%;
+  position:absolute;
+  top: 0;
+  left: -5.6rem;
+  opacity: .5;
+  box-shadow: 20px 0 20px 10px #FFFFFF;
 }
 
-.days {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2.5rem;
-
+.opacity-div-three{
+  background: none;
+  height: 32rem;
+  width: 30%;
+  position:absolute;
+  top: 0;
+  left: -5rem;
+  opacity: .3;
+  box-shadow: 20px 0 20px 10px #FFFFFF;
 }
 
-.days-icon {
-  margin-top: 1rem;
-  margin-left: 3rem;
-  width: 3.5rem;
-  height: 5rem;
-}
-
-.days p {
-  margin-left: 3.4rem;
+img .right-image {
+  position:absolute;
+  top:0;left:0;
+  z-index:-1000;
 }
